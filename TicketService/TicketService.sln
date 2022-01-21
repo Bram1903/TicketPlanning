@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31903.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketService.WebAPI", "TicketService.WebAPI\TicketService.WebAPI.csproj", "{C2FD22FA-6A19-42E6-86E4-76C115BFC4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2B790BB2-1662-4D30-B455-2B47E067D42B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketService.Application", "TicketService.Application\TicketService.Application.csproj", "{DF153448-40F0-4547-9DD5-161008C0C836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{279FB5C3-327E-4244-BCC0-9E437C17965B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketService.Domain", "TicketService.Domain\TicketService.Domain.csproj", "{920FF390-CE69-4189-8988-5F81284CA28B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69431C97-0077-47ED-9F4F-8C78F2DD7058}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		TicketService.WebAPI\bin\Debug\net5.0\settings.ini = TicketService.WebAPI\bin\Debug\net5.0\settings.ini
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketService.ConsoleApplication", "TicketService.ConsoleApplication\TicketService.ConsoleApplication.csproj", "{9F57BB80-B3D2-441A-9488-0A0AD70E466E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2FD22FA-6A19-42E6-86E4-76C115BFC4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FD22FA-6A19-42E6-86E4-76C115BFC4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FD22FA-6A19-42E6-86E4-76C115BFC4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FD22FA-6A19-42E6-86E4-76C115BFC4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF153448-40F0-4547-9DD5-161008C0C836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF153448-40F0-4547-9DD5-161008C0C836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF153448-40F0-4547-9DD5-161008C0C836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF153448-40F0-4547-9DD5-161008C0C836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{920FF390-CE69-4189-8988-5F81284CA28B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{920FF390-CE69-4189-8988-5F81284CA28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{920FF390-CE69-4189-8988-5F81284CA28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{920FF390-CE69-4189-8988-5F81284CA28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F57BB80-B3D2-441A-9488-0A0AD70E466E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F57BB80-B3D2-441A-9488-0A0AD70E466E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F57BB80-B3D2-441A-9488-0A0AD70E466E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F57BB80-B3D2-441A-9488-0A0AD70E466E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2FD22FA-6A19-42E6-86E4-76C115BFC4D9} = {2B790BB2-1662-4D30-B455-2B47E067D42B}
+		{DF153448-40F0-4547-9DD5-161008C0C836} = {279FB5C3-327E-4244-BCC0-9E437C17965B}
+		{920FF390-CE69-4189-8988-5F81284CA28B} = {279FB5C3-327E-4244-BCC0-9E437C17965B}
+		{9F57BB80-B3D2-441A-9488-0A0AD70E466E} = {2B790BB2-1662-4D30-B455-2B47E067D42B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAC15824-D492-4B60-A243-9CF52DCF8D0A}
+	EndGlobalSection
+EndGlobal
